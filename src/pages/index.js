@@ -4,8 +4,8 @@ import UnderConstruction from "../components/UnderConstruction"
 
 export default () => {
   return (
-    <>
+    <div id="wrap">
       <UnderConstruction />
-    </>
+    </div>
   )
 }
