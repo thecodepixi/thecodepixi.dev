@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lekton:wght@400;700&display=swap");
+
 body {
   box-sizing: border-box;
   margin: 0;
@@ -9,7 +11,62 @@ body {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  background: linear-gradient(60deg, red, orange, green, blue, purple, violet);
+  color: white;
+  background-size: 800% 800%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+
+  -webkit-animation: AnimationName 60s ease infinite;
+  -moz-animation: AnimationName 60s ease infinite;
+  animation: AnimationName 60s ease infinite;
 }
-#under-construction h4 {
-  line-height: 2em;
+#under-construction h1,
+h2,
+h3,
+h4 {
+  line-height: 2rem;
+  color: transparent;
+}
+#under-construction a {
+  color: black;
+}
+
+#under-construction a:hover {
+  color: turquoise;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 51%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 51%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 51%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 51%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 51%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 51%;
+  }
 }
