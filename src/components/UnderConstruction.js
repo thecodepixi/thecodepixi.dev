@@ -17,7 +17,7 @@ export default () => {
       </h3>
       <h3>
         Thanks for stopping by!{" "}
-        <span role="img" alt="waving hand emoji">
+        <span role="img" aria-label="waving hand emoji">
           👋
         </span>
       </h3>

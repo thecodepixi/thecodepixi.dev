@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Lekton:wght@400;700&display=swap");
-
 body {
   box-sizing: border-box;
   margin: 0;
@@ -26,8 +24,8 @@ body {
 h2,
 h3,
 h4 {
-  line-height: 2rem;
   color: transparent;
+  line-height: 2em;
 }
 #under-construction a {
   color: black;

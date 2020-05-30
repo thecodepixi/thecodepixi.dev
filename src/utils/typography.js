@@ -1,7 +1,7 @@
 import Typography from "typography"
-import fairyGates from "typography-theme-fairy-gates"
+import lawtonTheme from "typography-theme-lawton"
 
-const typography = new Typography(fairyGates)
+const typography = new Typography(lawtonTheme)
 
 // Export helper functions
 export const { scale, rhythm, options } = typography
