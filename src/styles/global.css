@@ -14,7 +14,6 @@ body {
 
 #text {
   background: linear-gradient(60deg, red, orange, green, blue, purple, violet);
-  color: white;
   background-size: 800% 800%;
   background-clip: text;
   -webkit-background-clip: text;
@@ -37,7 +36,7 @@ h4 {
 }
 
 #under-construction a:hover {
-  color: turquoise;
+  color: goldenrod;
 }
 
 @-webkit-keyframes AnimationName {
