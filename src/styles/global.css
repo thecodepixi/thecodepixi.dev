@@ -81,3 +81,9 @@ h4 {
     background-position: 0% 51%;
   }
 }
+
+@media only screen and (max-width: 550px) {
+  #under-construction-box {
+    width: 90vw;
+  }
+}
