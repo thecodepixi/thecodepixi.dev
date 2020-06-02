@@ -3,7 +3,7 @@ import React from "react"
 export default () => {
   return (
     <div id="under-construction">
-      <div id="text-box">
+      <div id="under-construction-box">
         <div id="text-background">
           <h1>Hello World!</h1>
           <h2>
