@@ -12,16 +12,25 @@ body {
   background: linear-gradient(130deg, #e7f1f2, #bfc7d0);
 }
 
-#text {
-  background: linear-gradient(60deg, red, orange, green, blue, purple, violet);
+#text-background {
+  background: linear-gradient(90deg, red, orange, green, blue, purple, violet);
   background-size: 800% 800%;
   background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
 
-  -webkit-animation: AnimationName 60s ease infinite;
-  -moz-animation: AnimationName 60s ease infinite;
-  animation: AnimationName 60s ease infinite;
+  -webkit-animation: AnimationName 45s ease infinite;
+  -moz-animation: AnimationName 45s ease infinite;
+  animation: AnimationName 45s ease infinite;
+}
+
+#text-box {
+  width: max-content;
+  padding: 3em;
+  align-self: center;
+  background: white;
+  border-radius: 1em;
+  box-shadow: 0.5em 0.5em 3em gray;
 }
 
 #under-construction h1,
