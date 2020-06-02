@@ -6,6 +6,21 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: `TheCodePixi`,
+    description: `TheCodePixi Blog and Developer Portfolio`,
+    author: `Emily (Pixi) Harber`,
+    social: [
+      {
+        name: `Twitter`,
+        url: `https://twitter.com/thecodepixi`,
+      },
+      {
+        name: `GitHub`,
+        url: `https://github.com/thecodepixi`,
+      },
+    ],
+  },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
