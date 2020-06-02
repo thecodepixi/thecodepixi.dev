@@ -26,5 +26,12 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    {
+      resolve: "gatsby-theme-blog",
+      options: {
+        basePath: "/blog",
+        contentPath: "./content/blog",
+      },
+    },
   ],
 }
