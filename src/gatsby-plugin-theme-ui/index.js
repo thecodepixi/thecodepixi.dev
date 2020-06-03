@@ -26,5 +26,29 @@ export default {
       ...baseTheme.styles.h1,
       color: "secondary",
     },
+    h2: {
+      ...baseTheme.styles.h2,
+      color: "secondary",
+    },
+    h3: {
+      ...baseTheme.styles.h3,
+      color: "secondary",
+    },
+    h4: {
+      ...baseTheme.styles.h4,
+      color: "secondary",
+    },
+    h5: {
+      ...baseTheme.styles.h5,
+      color: "secondary",
+    },
+    h6: {
+      ...baseTheme.styles.h6,
+      color: "secondary",
+    },
+    blockquote: {
+      ...baseTheme.blockquote,
+      padding: "0 1em",
+    },
   },
 }
