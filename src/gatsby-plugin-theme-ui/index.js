@@ -1,22 +1,29 @@
 import baseTheme from "gatsby-theme-blog/src/gatsby-plugin-theme-ui"
 
 export default {
+  useColorSchemeMediaQuery: true,
   ...baseTheme,
   colors: {
     ...baseTheme.colors,
-    text: "#333",
-    background: "linear-gradient(130deg, #e7f1f2, #bfc7d0)",
     primary: "teal",
+    text: "black",
+    background: "#FDFCFB",
+    secondary: "#c5a111",
     modes: {
+      ...baseTheme.colors.modes,
       dark: {
-        background: "#333",
-        text: "ghostwhite",
+        ...baseTheme.colors.modes.dark,
         primary: "turquoise",
+        text: "antiquewhite",
+        secondary: "yellow",
       },
     },
   },
-  fonts: {
-    body: "Montserrat, sans-serif",
-    heading: "Raleway, sans-serif",
+  styles: {
+    ...baseTheme.styles,
+    h1: {
+      ...baseTheme.styles.h1,
+      color: "secondary",
+    },
   },
 }

@@ -45,7 +45,11 @@ h4 {
 }
 
 #under-construction a:hover {
-  color: goldenrod;
+  color: rgb(242, 191, 60);
+}
+
+blockquote {
+  padding: 0 1em;
 }
 
 @-webkit-keyframes AnimationName {
