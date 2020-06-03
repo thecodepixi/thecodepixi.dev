@@ -17,13 +17,11 @@ export default () => {
             <a href="https://www.twitter.com/thecodepixi">Twitter</a> for
             regular updates.
           </h3>
-          <h3>
-            Thanks for stopping by!{" "}
-            <span role="img" aria-label="waving hand emoji">
-              👋
-            </span>
-          </h3>
+          <h3>Thanks for stopping by! </h3>
         </div>
+        <span role="img" aria-label="waving hand emoji" class="emoji">
+          👋
+        </span>
       </div>
     </div>
   )
