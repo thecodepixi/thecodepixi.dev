@@ -52,10 +52,6 @@ h4 {
   font-size: 2em;
 }
 
-blockquote {
-  padding: 0 1em;
-}
-
 @-webkit-keyframes AnimationName {
   0% {
     background-position: 0% 51%;
