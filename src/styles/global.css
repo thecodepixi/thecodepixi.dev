@@ -34,9 +34,9 @@ body {
 }
 
 #under-construction h1,
-h2,
-h3,
-h4 {
+#under-construction h2,
+#under-construction h3,
+#under-construction h4 {
   color: transparent;
   line-height: 2em;
 }
@@ -45,7 +45,11 @@ h4 {
 }
 
 #under-construction a:hover {
-  color: goldenrod;
+  color: rgb(242, 191, 60);
+}
+
+.emoji {
+  font-size: 2em;
 }
 
 @-webkit-keyframes AnimationName {
