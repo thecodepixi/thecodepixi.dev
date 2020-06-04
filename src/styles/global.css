@@ -68,14 +68,25 @@ body {
 
 #headshot {
   float: right;
-  margin-top: 5px;
+  margin-top: 7px;
 }
 #headshot img {
   height: 20em;
+  padding-left: 1em;
 }
 
 #homepage-bio {
   line-height: 180%;
+}
+
+#homepage-bio h2 {
+  line-height: 1.5em;
+  font-weight: 700;
+}
+
+#homepage-bio h3 {
+  font-weight: 400;
+  line-height: 1.5em;
 }
 
 @-webkit-keyframes AnimationName {
