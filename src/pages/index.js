@@ -1,12 +1,6 @@
 import React from "react"
-// import UnderConstruction from "../components/UnderConstruction"
-import Layout from "../components/Layout"
-import Bio from "../components/Bio"
+import UnderConstruction from "../components/UnderConstruction"
 
 export default () => {
-  return (
-    <Layout>
-      <Bio />
-    </Layout>
-  )
+  return <UnderConstruction />
 }
