@@ -68,9 +68,6 @@ body {
 
 #headshot {
   float: right;
-}
-
-#headshot img {
   height: 20em;
   margin-top: 5px;
 }
