@@ -112,4 +112,12 @@ body {
   #under-construction-box {
     width: 90vw;
   }
+
+  #header-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  #header-nav a {
+    padding-bottom: 0.5em;
+  }
 }
