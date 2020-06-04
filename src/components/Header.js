@@ -6,8 +6,8 @@ export default ({ children }) => {
     <div id="header-nav">
       <Styled.h1 href="/">TheCodePixi</Styled.h1>
       <NavLink href="/blog">Blog</NavLink>
-      <NavLink href="#about">About</NavLink>
       <NavLink href="#projects">Portfolio</NavLink>
+      <NavLink href="#community">Community</NavLink>
       <NavLink href="#contact">Contact</NavLink>
       {children}
     </div>
