@@ -9,7 +9,7 @@ module.exports = {
   siteMetadata: {
     title: `TheCodePixi`,
     description: `TheCodePixi Blog and Developer Portfolio`,
-    author: `Emily (Pixi) Harber`,
+    author: `Emily Harber`,
     social: [
       {
         name: `Twitter`,
@@ -46,6 +46,7 @@ module.exports = {
       options: {
         basePath: "/blog",
         contentPath: "./content/blog",
+        excerptLength: 150,
       },
     },
   ],
