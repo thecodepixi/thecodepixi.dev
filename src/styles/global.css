@@ -60,18 +60,23 @@ body {
   padding: 1.5em 0;
 }
 
+#header-nav nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
 #headshot {
-  float: left;
-  padding: 0 1.5em 0 0;
+  float: right;
 }
 
 #headshot img {
   height: 20em;
+  margin-top: 5px;
 }
 
 #homepage-bio {
-  padding: 1em;
-  text-align: justify;
+  line-height: 180%;
 }
 
 @-webkit-keyframes AnimationName {
@@ -108,7 +113,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 700px) {
   #under-construction-box {
     width: 90vw;
   }
@@ -119,5 +124,9 @@ body {
   }
   #header-nav a {
     padding-bottom: 0.5em;
+  }
+
+  body {
+    margin: 1em;
   }
 }
