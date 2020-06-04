@@ -6,7 +6,10 @@ export default () => {
   return (
     <Container id="homepage-bio">
       <section>
-        <Image id="headshot" src={headshot} alt="Emily Harber headshot" />
+        <div id="headshot">
+          <Image src={headshot} alt="Emily Harber headshot" />
+        </div>
+
         <section id="bio-content">
           <Styled.p>
             Former Barista, Cafe Manager, and beverage-industry beacon turned

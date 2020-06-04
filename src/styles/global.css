@@ -68,8 +68,10 @@ body {
 
 #headshot {
   float: right;
-  height: 20em;
   margin-top: 5px;
+}
+#headshot img {
+  height: 20em;
 }
 
 #homepage-bio {
@@ -123,7 +125,17 @@ body {
     padding-bottom: 0.5em;
   }
 
+  #headshot {
+    float: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+  }
+  #headshot img {
+    height: 35vh;
+  }
+
   body {
-    margin: 1em;
+    padding: 1.5em;
   }
 }
