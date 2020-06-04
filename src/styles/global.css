@@ -71,6 +71,7 @@ body {
 
 #homepage-bio {
   padding: 1em;
+  text-align: justify;
 }
 
 @-webkit-keyframes AnimationName {
