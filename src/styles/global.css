@@ -52,6 +52,14 @@ body {
   font-size: 2em;
 }
 
+#header-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 1.5em 0;
+}
+
 @-webkit-keyframes AnimationName {
   0% {
     background-position: 0% 51%;

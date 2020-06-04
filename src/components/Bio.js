@@ -1,5 +1,5 @@
 import React from "react"
-import { Styled, Container } from "theme-ui"
+import { Styled, Container, Divider } from "theme-ui"
 
 export default () => {
   return (
@@ -8,6 +8,7 @@ export default () => {
         This is my bio text...I'll probably say some stuff about me and maybe
         put a picture here...
       </Styled.p>
+      <Divider />
     </Container>
   )
 }
