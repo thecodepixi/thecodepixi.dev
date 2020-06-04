@@ -49,5 +49,6 @@ module.exports = {
         excerptLength: 150,
       },
     },
+    "gatsby-plugin-theme-ui",
   ],
 }

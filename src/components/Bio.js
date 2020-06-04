@@ -4,8 +4,10 @@ import { Styled, Container } from "theme-ui"
 export default () => {
   return (
     <Container id="homepage-bio">
-      <Styled.h1>TheCodePixi</Styled.h1>
-      <Styled.p>this is a paragraph</Styled.p>
+      <Styled.p>
+        This is my bio text...I'll probably say some stuff about me and maybe
+        put a picture here...
+      </Styled.p>
     </Container>
   )
 }
