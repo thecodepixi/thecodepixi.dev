@@ -60,6 +60,19 @@ body {
   padding: 1.5em 0;
 }
 
+#headshot {
+  float: left;
+  padding: 0 1.5em 0 0;
+}
+
+#headshot img {
+  height: 20em;
+}
+
+#homepage-bio {
+  padding: 1em;
+}
+
 @-webkit-keyframes AnimationName {
   0% {
     background-position: 0% 51%;

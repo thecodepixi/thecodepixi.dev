@@ -1,5 +1,5 @@
 import React from "react"
-import { Styled, NavLink, Divider } from "theme-ui"
+import { Styled, NavLink } from "theme-ui"
 
 export default ({ children }) => {
   return (
