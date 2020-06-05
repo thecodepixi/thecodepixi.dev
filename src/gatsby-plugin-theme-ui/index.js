@@ -34,6 +34,7 @@ export default {
     h3: {
       ...baseTheme.styles.h3,
       color: "secondary",
+      fontWeight: 700,
     },
     h4: {
       ...baseTheme.styles.h4,

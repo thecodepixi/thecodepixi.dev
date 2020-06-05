@@ -4,29 +4,37 @@ import { useStaticQuery, graphql, Link } from "gatsby"
 
 export default () => {
   const data = useStaticQuery(graphql`
-    {
+    query MyQuery {
       allBlogPost {
         edges {
           node {
             slug
             excerpt
-            date
+            date(formatString: "MMMM Do, YYYY")
             title
           }
         }
       }
     }
   `)
-
-  const renderPosts = () => {
-    data.allBlogPost.edges.forEach(post => {
+  const createPosts = () => {
+    for (let post of data.allBlogPost.edges) {
       return (
-        <section id="featured-post">
-          <p>{post.node.tile}</p>
+        <section className="featured-post">
+          <Styled.h3 as={Link} href={post.node.slug}>
+            {post.node.title}
+          </Styled.h3>
+          <Styled.p>{post.node.date}</Styled.p>
+          <Styled.p>{post.node.excerpt}</Styled.p>
         </section>
       )
-    })
+    }
   }
 
-  return <section id="featured-blog-posts">{renderPosts}</section>
+  return (
+    <section id="featured-blog-posts">
+      <Styled.h2>Featured Blog Posts:</Styled.h2>
+      {createPosts()}
+    </section>
+  )
 }
