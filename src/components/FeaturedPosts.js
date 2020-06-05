@@ -20,7 +20,7 @@ export default () => {
 
   const createPostNodes = data.allBlogPost.edges.map(post => {
     return (
-      <section className="featured-post">
+      <section className="featured-post" id={post.node.title}>
         <Styled.h3 as={Link} href={post.node.slug}>
           {post.node.title}
         </Styled.h3>

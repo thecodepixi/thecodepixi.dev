@@ -8,11 +8,12 @@
 
 - [x] add "Featured Posts" section
 
+  - [ ] add all past blog posts to site
   - [ ] tag blog posts as 'featured'
   - [x] use graphQL query to only grab those posts?
 
 - [ ] Add portfolio section with demo links and screenshots
 
-- which projects to include?
+  -[ ] which projects to include?
 
 - [ ] Add section for Code Cafe
