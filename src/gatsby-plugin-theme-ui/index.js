@@ -1,4 +1,4 @@
-import baseTheme from "gatsby-theme-blog/src/gatsby-plugin-theme-ui"
+import baseTheme from "gatsby-theme-blog/src/gatsby-plugin-theme-ui/index"
 
 export default {
   useColorSchemeMediaQuery: true,
@@ -9,6 +9,7 @@ export default {
     text: "#3b4550",
     background: "#eee0d7",
     secondary: "#294c7c",
+    heading: "294c7c",
     modes: {
       ...baseTheme.colors.modes,
       dark: {
@@ -47,8 +48,12 @@ export default {
       color: "secondary",
     },
     blockquote: {
-      ...baseTheme.blockquote,
+      ...baseTheme.styles.blockquote,
       padding: "0 1em",
+    },
+    a: {
+      ...baseTheme.styles.a,
+      color: "secondary",
     },
   },
 }
