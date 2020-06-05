@@ -6,10 +6,10 @@
 
 - [ ] add heading and separation between bio heading and "about" info
 
-- [ ] add "Featured Posts" section
+- [x] add "Featured Posts" section
 
-- tag blog posts as 'featured'
-- use graphQL query to only grab those posts?
+  - [ ] tag blog posts as 'featured'
+  - [x] use graphQL query to only grab those posts?
 
 - [ ] Add portfolio section with demo links and screenshots
 
