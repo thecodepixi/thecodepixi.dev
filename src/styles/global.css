@@ -146,8 +146,7 @@ body {
   #headshot img {
     height: 35vh;
   }
-
-  body {
-    padding: 1.5em;
+  #homepage-bio {
+    padding: 1em;
   }
 }
