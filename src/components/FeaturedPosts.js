@@ -4,7 +4,7 @@ import { useStaticQuery, graphql, Link } from "gatsby"
 
 export default () => {
   const data = useStaticQuery(graphql`
-    query MyQuery {
+    {
       allBlogPost {
         edges {
           node {
@@ -17,6 +17,7 @@ export default () => {
       }
     }
   `)
+
   const createPosts = () => {
     for (let post of data.allBlogPost.edges) {
       return (
