@@ -48,6 +48,7 @@ export default {
     },
     blockquote: {
       ...baseTheme.blockquote,
+      color: "secondary",
       padding: "0 1em",
     },
   },
