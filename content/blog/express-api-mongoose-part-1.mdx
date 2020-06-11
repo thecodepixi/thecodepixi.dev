@@ -1,10 +1,12 @@
 ---
-title: "Creating a REST API with Express and Mongoose"
-slug: "api-with-express-and-mongoose"
+title: "Setting Up An Express API with Mongoose"
+slug: "rest-api-with-express-and-mongoose-part1"
 date: "2020-06-10"
 ---
 
-> This is a continuation of a series on Express. If you have never used Express before I recommend [starting here]('/your-first-express-server) instead...
+> This is a continuation of a series on Express. If you have never used Express before I recommend [starting here]('/your-first-express-server) instead.
+
+> This is Part 1 of a 2 part series. Part 2 coming soon...
 
 To get started with writing a REST API with Express, we first need to set up our project folder.
 
@@ -162,9 +164,11 @@ const Puppy = mongoose.model("Puppy", puppySchema)
 module.exports = Puppy
 ```
 
-We're going to put the definitions for all for all of the keys of our `Puppy` model in the `new Schema({})` assigned to `puppySchema`. MongoDB offers all of the standard data types, and Mongoose provides validations for these types. We'll be exploring a few different data types and validations.
+![A Basket Full O' Puppies](https://media.giphy.com/media/gcXcSRYZ9cGWY/source.gif)
 
-We want all of our `Puppies` to have a `name`, `age`, and `breed`. We're also going to give them each `Boolean` values of `cute`,`well-behaved`, and `adopted`.
+We're going to put the definitions for all of the keys of our `Puppy` model in the `new Schema({})` assigned to `puppySchema`. MongoDB offers all of the standard data types, and Mongoose provides validations for these types. We'll be exploring a few different data types and validations with this model.
+
+We want all of our `Puppies` to have a `name`, `age`, and `breed`, and we're also going to give them each `Boolean` values of `cute`,`well-behaved`, and `adopted`.
 
 Let's add these to our `Schema` (_I've included code comments to explain the validations and typing along the way_):
 
@@ -220,3 +224,15 @@ const Puppy = mongoose.model("Puppy", puppySchema)
 
 module.exports = Puppy
 ```
+
+🎉🎉🎉 We did it! We've got our basic Express server hooked up to our own MongoDB cluster, and we've created our first Model Schema using Mongoose.
+
+It's time to take a well deserved break, get up, drink some water, and stretch out those typing fingers.
+
+Next week we'll be going through the process to set up all of our API endpoints, using Mongoose to access information from our database, and accomplish all of the CRUD actions through our API.
+
+If you want to find out when I put out new blog posts and tutorials, you can [follow me on Twitter](https://twitter.com/thecodepixi), where I always post links as soon as my new posts are available.
+
+I also cross-post all of my articles to [DEV](https://dev.to/thecodepixi) if you prefer to read articles and tutorials there.
+
+<!-- LINK TO PART 2 WHEN AVAILABLE -->
