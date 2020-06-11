@@ -5,7 +5,7 @@ date: "2020-06-10"
 tags: ["Express", "JavaScript", "MongoDB", "Tutorials"]
 ---
 
-> This is a continuation of a series on Express. If you have never used Express before I recommend [starting here]('/your-first-express-server) instead.
+> This is a continuation of a series on Express. If you have never used Express before I recommend [starting here](https://thecodepixi.dev/blog/your-first-express-server) instead.
 
 > This is Part 1 of a 2 part series. Part 2 coming soon...
 
@@ -16,9 +16,9 @@ Let's open up a terminal and `cd` into where ever we want to work on our coding 
 Then we want to create a new folder for our project to live in, and initialize our `package.json`:
 
 ```bash
-  $ mkdir express-rest-api
-  $ cd express-rest-api
-  $ yarn init -y
+$ mkdir express-rest-api
+$ cd express-rest-api
+$ yarn init -y
 ```
 
 _I'm choosing to use `yarn` as my package manager, but you can use `npm` if you prefer. Both will work the same for this project_
@@ -26,7 +26,7 @@ _I'm choosing to use `yarn` as my package manager, but you can use `npm` if you 
 Now we need to add all of the dependencies for our project. There are quite a few, so let's go over them quickly, one by one:
 
 - `express` : Express is a [minimal and flexible Node.js web application framework](expressjs.com).
-- `nodemon` : [Nodemon](<[https://nodemon.io/](https://nodemon.io/) is a utility that automatically restarts your server on save to provide "hot reloading" and increased efficiency (_this will be installed as a `devDepenency`_)
+- `nodemon` : [Nodemon](https://nodemon.io/) is a utility that automatically restarts your server on save to provide "hot reloading" and increased efficiency (_this will be installed as a `devDepenency`_)
 - `dotenv` : Dotenv allows us to store private/secret information (like our MongoDB URI) in a `.env` file and access that information using a variable instead of plain text inside our code.
 - `cors`: CORS stands for 'Cross Origin Resource Sharing'. We'll get into what that means a little later on when we start sending things like POST requests.
 - `mongoose`: Mongoose is the MongoDB framework that we'll be using to create our database `Schema` and access our database models. (_you can build this without Mongoose and just use MongoDB but I personally really enjoy Mongoose and find it to be a useful tool_)
@@ -34,20 +34,20 @@ Now we need to add all of the dependencies for our project. There are quite a fe
 We can add most of these packages in a single command from our terminal:
 
 ```bash
-  $ yarn add express cors mongoose nodemon
+$ yarn add express cors mongoose nodemon
 ```
 
 Then we can add `nodemon` to our `devDependencies` by adding the `-D` flag:
 
 ```bash
-  $ yarn add -D nodemon
+$ yarn add -D nodemon
 ```
 
 ## Basic Express Server Setup
 
 The "entry point" for this project is `index.js` so we can create that using `touch index.js` and then open that file in our favorite code editor (I'm using VS Code).
 
-The first thing we want to do is set up our basic Express server. Most of this process is covered in the [first part of this series]('/your-first-express-server), so I won't go into too much detail on this here...
+The first thing we want to do is set up our basic Express server. Most of this process is covered in the [first part of this series](https://thecodepixi.dev/blog/your-first-express-server), so I won't go into too much detail on this here...
 
 ```js
 // index.js
@@ -82,7 +82,7 @@ MongoDB has a great tutorial on that [here](https://docs.atlas.mongodb.com/getti
 
 <!-- WELL, WE'RE WAITING GIF -->
 
-![Well, We're Waiting!](https://giphy.com/embed/oT7ATDykMidsk)
+![Well, We're Waiting!](https://media.giphy.com/media/oT7ATDykMidsk/source.gif)
 
 ## Oh, Great! You're Back!
 
