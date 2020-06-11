@@ -1,0 +1,43 @@
+---
+title: "Creating a REST API with Express and Mongoose"
+slug: "api-with-express-and-mongoose"
+date: "2020-06-10"
+---
+
+> This is a continuation of a series on Express. If you have never used Express before I recommend [starting here]('/your-first-express-server) instead...
+
+To get started with writing a REST API with Express, we first need to set up our project folder.
+
+Let's open up a terminal and `cd` into where ever we want to work on our coding projects. For me, that's `cd code`.
+
+Then we want to create a new folder for our project to live in, and initialize our `package.json`:
+
+```bash
+  $ mkdir express-rest-api
+  $ cd express-rest-api
+  $ yarn init -y
+```
+
+_I'm choosing to use `yarn` as my package manager, but you can use `npm` if you prefer. Both will work the same for this project_
+
+Now we need to add all of the dependencies for our project. There are quite a few, so let's go over them quickly, one by one:
+
+- `express` : Express is a [minimal and flexible Node.js web application framework](expressjs.com).
+- `nodemon` : [Nodemon](<[https://nodemon.io/](https://nodemon.io/) is a utility that automatically restarts your server on save to provide "hot reloading" and increased efficiency (_this will be installed as a `devDepenency`_)
+- `dotenv` : Dotenv allows us to store private/secret information (like our MongoDB URI) in a `.env` file and access that information using a variable instead of plain text inside our code.
+- `cors`: CORS stands for 'Cross Origin Resource Sharing'. We'll get into what that means a little later on when we start sending things like POST requests.
+- `mongoose`: Mongoose is the MongoDB framework that we'll be using to create our database `Schema` and access our database models. (_you can build this without Mongoose and just use MongoDB but I personally really enjoy Mongoose and find it to be a useful tool_)
+
+We can add most of these packages in a single command from our terminal:
+
+```bash
+  $ yarn add express cors mongoose nodemon
+```
+
+Then we can add `nodemon` to our `devDependencies` by adding the `-D` flag:
+
+```bash
+  $ yarn add -D nodemon
+```
+
+The "entry point" for this project is `index.js` so we can create that using `touch index.js` and then open that file in our favorite code editor (I'm using VS Code).
