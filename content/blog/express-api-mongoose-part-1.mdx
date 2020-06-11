@@ -60,8 +60,8 @@ app.listen(PORT, () => console.log(`Server running on port ${PORT}`))
 ```
 
 ```json
-/* add these to the "scripts" section in your package.json
-(or create "scripts" if it does not exist) */
+/* add these to the "scripts" section in your package.json */
+/* (or create "scripts" if it does not exist) */
 "scripts": {
   "dev": "nodemon index",
   "run": "node index"
@@ -87,7 +87,10 @@ MongoDB has a great tutorial on that [here](https://docs.atlas.mongodb.com/getti
 ## Oh, Great! You're Back!
 
 So now you should have your MongoDB Atlas URI available. The string should look something like this:
-`mongodb+srv://<username>:<password>@clustername.mongodb.net/<dbName>?retryWrites=true&w=majority&useNewUrlParser=true&useUnifiedTopology=true`
+
+```
+mongodb+srv://<username>:<password>@clustername.mongodb.net/<dbName>?retryWrites=true&w=majority&useNewUrlParser=true&useUnifiedTopology=true
+```
 
 We're going to add an `.env` file to our project, and store this string (replacing `username`, `password` with your cluster admin info).
 
@@ -145,7 +148,7 @@ _However, since these options are specified in the our `ATLAS_URI`, we hopefully
 
 Since we're building a relatively simple API, we're just going to have one model and one schema. We're going to put this model in a folder called `Models`
 
-```
+```bash
 $ mkdir models
 $ touch models/Puppy.model.js
 
