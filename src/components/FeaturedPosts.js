@@ -5,7 +5,10 @@ import { useStaticQuery, graphql, Link } from "gatsby"
 export default () => {
   const data = useStaticQuery(graphql`
     {
-      allBlogPost {
+      allBlogPost(
+        filter: { tags: { eq: "Featured" } }
+        sort: { fields: date, order: DESC }
+      ) {
         edges {
           node {
             slug

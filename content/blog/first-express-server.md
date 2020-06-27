@@ -2,6 +2,7 @@
 slug: "your-first-express-server"
 title: "Hello World! { Setting Up Your First Express Server } "
 date: "2020-05-11"
+tags: [Express, Node, API, JavaScript, Featured]
 ---
 
 ### But what is Express anyway?
