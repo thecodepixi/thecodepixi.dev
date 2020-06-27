@@ -8,6 +8,7 @@ export default () => {
       allBlogPost(
         filter: { tags: { eq: "Featured" } }
         sort: { fields: date, order: DESC }
+        limit: 3
       ) {
         edges {
           node {
