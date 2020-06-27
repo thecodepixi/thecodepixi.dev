@@ -58,5 +58,9 @@ export default {
       ...baseTheme.styles.a,
       color: "secondary",
     },
+    p: {
+      ...baseTheme.styles.p,
+      fontSize: "16px",
+    },
   },
 }

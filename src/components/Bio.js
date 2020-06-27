@@ -15,8 +15,8 @@ export default () => {
             <Styled.h2>Hi, I'm Emily, but you can call me Pixi...</Styled.h2>
             <Styled.h3>
               I'm a former Barista, Cafe Manager, and beverage-industry beacon
-              turned Software Engineer, and Coder Community Confidant.{" "}
-            </Styled.h3>{" "}
+              turned Software Engineer, and Coder Community Confidant.
+            </Styled.h3>
           </section>
           <Styled.p>
             I first dabbled in code in 2015, and became convinced that the tech
