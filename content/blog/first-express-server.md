@@ -30,7 +30,7 @@ Once you have your `package.json`, you need to install Express
 $ npm i express
 ```
 
-And I also highly recommend including the [Nodemon](<[https://nodemon.io/](https://nodemon.io/)>) utility in your `devDependencies`. Nodemon automically restarts your server on save so that you don't have to repeatedly `^c` and restart your server with every change.
+And I also highly recommend including the [Nodemon](<[https://nodemon.io/](https://nodemon.io/)>) utility in your `devDependencies`. Nodemon automatically restarts your server on save so that you don't have to repeatedly `^c` and restart your server with every change.
 
 ```bash
 $ npm i -D nodemon

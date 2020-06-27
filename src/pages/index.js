@@ -1,6 +1,13 @@
 import React from "react"
-import UnderConstruction from "../components/UnderConstruction"
+import Layout from "../components/Layout"
+import Bio from "../components/Bio"
+import FeaturedPosts from "../components/FeaturedPosts"
 
 export default () => {
-  return <UnderConstruction />
+  return (
+    <Layout>
+      <Bio />
+      <FeaturedPosts />
+    </Layout>
+  )
 }
