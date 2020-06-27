@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import { useColorMode, Styled, Container } from "theme-ui"
+import { css, useColorMode, Styled, Container } from "theme-ui"
 import Switch from "gatsby-theme-blog/src/components/switch"
 import sun from "gatsby-theme-blog/assets/sun.png"
 import moon from "gatsby-theme-blog/assets/moon.png"
@@ -55,7 +55,11 @@ export default ({ children, title, ...props }) => {
     switchToggle = null
   }
   return (
-    <Container>
+    <Container
+      css={css({
+        paddingBottom: 0,
+      })}
+    >
       <header id="header-nav">
         <Styled.h1 as={Link} href="/">
           TheCodePixi

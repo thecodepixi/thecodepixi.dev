@@ -11,6 +11,9 @@ export default () => {
         </div>
 
         <section id="bio-content">
+          <small>Just a heads up: This site is under construction...</small>
+          <br />
+          <br />
           <section id="bio-headings">
             <Styled.h2>Hi, I'm Emily, but you can call me Pixi...</Styled.h2>
             <Styled.h3>
