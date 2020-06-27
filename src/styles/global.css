@@ -3,6 +3,8 @@ body {
   margin: 0;
 }
 
+/* start under construction css */
+
 #under-construction {
   height: 100vh;
   display: flex;
@@ -48,6 +50,8 @@ body {
   color: rgb(242, 191, 60);
 }
 
+/* end under construction css */
+
 .emoji {
   font-size: 2em;
 }
@@ -57,7 +61,6 @@ body {
   flex-direction: row;
   align-items: baseline;
   justify-content: space-between;
-  padding: 1.5em 0;
 }
 
 #header-nav nav {

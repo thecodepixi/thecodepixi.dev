@@ -1,12 +1,12 @@
-import React from "react"
+import React, { Fragment } from "react"
 import { Container } from "theme-ui"
-import Header from "./Header"
+import Header from "../gatsby-theme-blog/components/header"
 
 export default props => {
   return (
-    <Container>
+    <Fragment>
       <Header />
-      {props.children}
-    </Container>
+      <Container>{props.children}</Container>
+    </Fragment>
   )
 }

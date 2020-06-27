@@ -9,7 +9,8 @@ export default {
     text: "#3b4550",
     background: "#eee0d7",
     secondary: "#294c7c",
-    heading: "294c7c",
+    heading: "#294c7c",
+    highlight: "#bbd9db",
     modes: {
       ...baseTheme.colors.modes,
       dark: {
@@ -18,6 +19,7 @@ export default {
         text: "#eee0d7",
         secondary: "#bbd9db",
         background: "#3b4550",
+        highlight: "#294c7c",
       },
     },
   },

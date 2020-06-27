@@ -45,7 +45,7 @@ module.exports = {
       resolve: "gatsby-theme-blog",
       options: {
         basePath: "/blog/",
-        contentPath: "./content/blog",
+        contentPath: "./src/content/blog",
         excerptLength: 150,
       },
     },

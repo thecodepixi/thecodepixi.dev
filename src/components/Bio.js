@@ -1,13 +1,13 @@
-import React from "react"
-import { Styled, Container, Divider, Image } from "theme-ui"
+import React, { Fragment } from "react"
+import { Styled } from "theme-ui"
 import headshot from "../assets/headshot.jpg"
 
 export default () => {
   return (
-    <Container id="homepage-bio">
+    <Fragment id="homepage-bio">
       <section>
         <div id="headshot">
-          <Image src={headshot} alt="Emily Harber headshot" />
+          <img src={headshot} alt="Emily Harber headshot" />
         </div>
 
         <section id="bio-content">
@@ -36,7 +36,6 @@ export default () => {
           </Styled.p>
         </section>
       </section>
-      <Divider />
-    </Container>
+    </Fragment>
   )
 }

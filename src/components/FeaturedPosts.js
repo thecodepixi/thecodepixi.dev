@@ -35,9 +35,11 @@ export default () => {
   })
 
   return (
-    <section id="featured-blog-posts">
-      <Styled.h2>Featured Blog Posts:</Styled.h2>
-      {createPostNodes}
-    </section>
+    <>
+      <section id="featured-blog-posts">
+        <Styled.h2>Featured Blog Posts:</Styled.h2>
+        {createPostNodes}
+      </section>
+    </>
   )
 }
