@@ -26,9 +26,7 @@ export default () => {
             industry wasn't for <em>"people like me"</em>. After much
             encouragement from friends and colleagues, I got back to it in 2018,
             started with the freeCodeCamp "Responsive Web Design" certification
-            and never looked back. I recently completed the{" "}
-            <Styled.a href="www.flatironschool.com">Flatiron School</Styled.a>{" "}
-            Software Engineering Certificate program.
+            and never looked back.
           </Styled.p>{" "}
           <Styled.p>
             Programming has become the thing I am <strong>*most*</strong>{" "}
@@ -36,6 +34,26 @@ export default () => {
             <strong>*not*</strong> doing. I love working with diverse teams to
             solve complex problems that help people live better lives through
             tech.
+          </Styled.p>
+          <Styled.h3>What I've Been Up To: </Styled.h3>
+          <Styled.p>
+            I recently completed the{" "}
+            <Styled.a href="www.flatironschool.com">Flatiron School</Styled.a>{" "}
+            Software Engineering Certificate program, which covers a "Full
+            Stack" curriculum of Ruby, Ruby on Rails, JavaScript, React, and
+            SQL. More recently, I've been focusing on increasing my knowledge of
+            JavaScript, React, and Rails, and supplementing my current stack
+            with Node, Express, Gatsby, MongoDB and GraphQL.
+          </Styled.p>
+          <Styled.p>
+            During my time as a fully remote student at Flatiron, I started a
+            local meetup group that I called "Code Cafe NJ", which served as a
+            way to socialize and network with other local coders.
+            <br />
+            When the COVID-19 pandemic hit the US, we took Code Cafe fully
+            online, and now have a thriving Discord server with over 100 active
+            members. We host impromptu digital meetups, and provide a welcoming
+            community for coders of all kinds.
           </Styled.p>
         </section>
       </section>
