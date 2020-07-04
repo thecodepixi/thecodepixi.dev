@@ -5,9 +5,9 @@ tags: [Featured, Fullstack, React, Frontend, Backend]
 socialImage: ../assets/images/generic-laptop.jpg
 ---
 
-So, this week I meant to put up the next post in my MERN stack project series, but I realized that I was leaving out a **huge** part of the project-process by not talking about proper project planning.
+So, this week I meant to put up the next post in my MERN stack project series, but I realized that I was leaving out a **huge** part of the project-process by not talking about proper project planning. For most of my projects, especially recently, I've been following a planning process that helps me breakdown the project into component parts that help me build more efficiently.
 
-### This project broke down into a few key parts:
+### Here's a basic project planning breakdown:
 
 - Scope
 - Database Modeling
