@@ -35,20 +35,6 @@ module.exports = {
         extensions: [`.mdx`, `.md`],
       },
     },
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography`,
-      },
-    },
-    {
-      resolve: "gatsby-theme-blog",
-      options: {
-        basePath: "/blog/",
-        contentPath: "./src/content/blog",
-        excerptLength: 150,
-      },
-    },
     "gatsby-plugin-theme-ui",
   ],
 }
