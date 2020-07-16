@@ -22,16 +22,17 @@ body {
 }
 
 #social-links {
-  align-self: baseline;
+  align-items: baseline;
 }
 
 #twitter-icon {
   height: 50px;
-  margin-top: -10px;
+  width: 50px;
 }
 #github-icon {
-  height: 67px;
-  margin-top: -17px;
+  height: 65px;
+  width: 65px;
+  margin-top: -6px;
 }
 
 @media screen and (min-width: 750px) {

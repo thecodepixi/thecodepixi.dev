@@ -1,8 +1,8 @@
 import React from "react"
 import { Styled } from "theme-ui"
 import { Link } from "gatsby"
-import Twitter from "../../content/assets/icons/twitter-icon.png"
-import GitHub from "../../content/assets/icons/github-icon.png"
+import Twitter from "../../content/assets/icons/twitter-icon.svg"
+import GitHub from "../../content/assets/icons/github-icon.svg"
 
 export default props => {
   return (
