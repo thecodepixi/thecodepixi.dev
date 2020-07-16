@@ -1,8 +1,6 @@
 import React from "react"
 import { Styled } from "theme-ui"
 import { Link } from "gatsby"
-import Twitter from "../../content/assets/icons/twitter-icon.svg"
-import GitHub from "../../content/assets/icons/github-icon.svg"
 
 export default props => {
   return (
@@ -24,16 +22,16 @@ export default props => {
             Contact
           </Styled.h2>
         </li>
-      </ul>
-      <ul id="social-links">
         <li>
           <a href="https://github.com/thecodepixi">
-            <img id="github-icon" src={GitHub} alt="Twitter Icon" />
+            <i class="fab fa-github" id="github-icon" aria-hidden="true"></i>
+            <span class="visible-hidden">Twitter</span>
           </a>
         </li>
         <li>
           <a href="https://twitter.com/thecodepixi">
-            <img id="twitter-icon" src={Twitter} alt="Twitter Icon" />
+            <i class="fab fa-twitter" id="twitter-icon" aria-hidden="true"></i>
+            <span class="visible-hidden">GitHub</span>
           </a>
         </li>
       </ul>
