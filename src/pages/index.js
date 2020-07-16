@@ -1,5 +1,10 @@
 import React from "react"
+import Layout from "../components/layout"
 
 export default () => {
-  return <h1>We're starting over!</h1>
+  return (
+    <Layout>
+      <p>Content eventually...</p>
+    </Layout>
+  )
 }

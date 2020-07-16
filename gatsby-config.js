@@ -19,6 +19,10 @@ module.exports = {
         name: `GitHub`,
         url: `https://github.com/thecodepixi`,
       },
+      {
+        name: `LinkedIn`,
+        url: `https://linkedin.com/in/emily-harber`,
+      },
     ],
   },
   plugins: [
@@ -35,6 +39,13 @@ module.exports = {
         extensions: [`.mdx`, `.md`],
       },
     },
-    "gatsby-plugin-theme-ui",
+    `gatsby-plugin-theme-ui`,
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: ["playfair display:400,700", "nanum gothic:400,700"],
+        display: "swap",
+      },
+    },
   ],
 }
