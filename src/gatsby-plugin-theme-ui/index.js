@@ -22,6 +22,17 @@ export default {
     secondary: "#30c",
     muted: "#f6f6f6",
   },
+  images: {
+    standard: {
+      maxWidth: "90%",
+      borderRadius: "2em",
+    },
+    small: {
+      height: "auto",
+      width: "10em",
+      borderRadius: ".5em",
+    },
+  },
   styles: {
     root: {
       fontFamily: "body",
@@ -104,7 +115,7 @@ export default {
       borderBottomStyle: "solid",
     },
     img: {
-      maxWidth: "100%",
+      maxWidth: "90%",
     },
   },
 }

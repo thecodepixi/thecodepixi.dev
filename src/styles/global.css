@@ -32,6 +32,18 @@ i {
   color: black;
 }
 
+#bio {
+  padding: 0 1em;
+  display: flex;
+}
+
+#bio-header {
+  width: 60vw;
+  margin: 1em;
+}
+
+/* media queries */
+
 @media screen and (min-width: 750px) {
   #navbar {
     display: flex;
