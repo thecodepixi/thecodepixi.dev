@@ -5,22 +5,22 @@ import { Link } from "gatsby"
 export default props => {
   return (
     <nav id="navbar">
-      <Styled.h1>TheCodePixi</Styled.h1>
+      <Styled.h2>TheCodePixi</Styled.h2>
       <ul>
         <li>
-          <Styled.h2 as={Link} to="/blog">
+          <Styled.h3 as={Link} to="/blog">
             Blog
-          </Styled.h2>
+          </Styled.h3>
         </li>
         <li>
-          <Styled.h2 as={Link} to="/portfolio">
+          <Styled.h3 as={Link} to="/portfolio">
             Portfolio
-          </Styled.h2>
+          </Styled.h3>
         </li>
         <li>
-          <Styled.h2 as={Link} to="#contact">
+          <Styled.h3 as={Link} to="#contact">
             Contact
-          </Styled.h2>
+          </Styled.h3>
         </li>
         <li>
           <a href="https://github.com/thecodepixi">

@@ -43,7 +43,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: ["playfair display:400,700", "nanum gothic:400,700"],
+        fonts: ["playfair display:300,400,700", "nanum gothic:300,400,700"],
         display: "swap",
       },
     },
