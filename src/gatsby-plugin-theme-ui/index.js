@@ -3,11 +3,20 @@ import baseTheme from "gatsby-theme-blog/src/gatsby-plugin-theme-ui/index"
 export default {
   useColorSchemeMediaQuery: true,
   ...baseTheme,
+  fonts: {
+    body: '"Nanum Gothic", Helvetica, sans-serif',
+    headings: '"Lora", Times, serif',
+  },
+  fontWeights: {
+    body: 400,
+    headings: 700,
+    bold: 700,
+  },
   colors: {
     ...baseTheme.colors,
     primary: "#553d41",
     text: "#3b4550",
-    background: "#eee0d7",
+    background: "#eee",
     secondary: "#294c7c",
     heading: "#294c7c",
     highlight: "#bbd9db",
@@ -18,7 +27,7 @@ export default {
         primary: "#e4b691",
         text: "#eee0d7",
         secondary: "#bbd9db",
-        background: "#3b4550",
+        background: "#333",
         highlight: "#294c7c",
       },
     },

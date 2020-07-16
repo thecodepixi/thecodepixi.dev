@@ -21,13 +21,13 @@ export default () => {
               turned Software Engineer, and Coder Community Confidant.
             </Styled.h3>
           </section>
-          <Styled.p>
+          <p>
             I first dabbled in code in 2015, and became convinced that the tech
             industry wasn't for <em>"people like me"</em>. After much
             encouragement from friends and colleagues, I got back to it in 2018,
             started with the freeCodeCamp "Responsive Web Design" certification
             and never looked back.
-          </Styled.p>{" "}
+          </p>{" "}
           <Styled.p>
             Programming has become the thing I am <strong>*most*</strong>{" "}
             passionate about, and the thing I now cannot imagine{" "}
