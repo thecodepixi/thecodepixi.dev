@@ -2,28 +2,38 @@
 import React from "react"
 import { Styled, jsx } from "theme-ui"
 import { Link } from "gatsby"
+import LinkClick from "../link-click"
 
 export default props => {
   return (
     <nav id="navbar">
-      <Styled.h2 as={Link} to="/">
+      <Styled.h2 as={Link} to="/" onClick={e => LinkClick(e)}>
         TheCodePixi
       </Styled.h2>
       <ul>
         <li>
-          <Styled.h3 as={Link} to="/blog">
+          <Styled.h4 as={Link} to="/blog" onClick={e => LinkClick(e)}>
             Blog
-          </Styled.h3>
+          </Styled.h4>
         </li>
         <li>
-          <Styled.h3 as={Link} to="/portfolio">
+          <Styled.h4 as={Link} to="/portfolio" onClick={e => LinkClick(e)}>
             Portfolio
-          </Styled.h3>
+          </Styled.h4>
         </li>
         <li>
-          <Styled.h3 as={Link} to="#contact">
+          <Styled.h4
+            as="a"
+            href="https://shop.thecodepixi.dev"
+            onClick={e => LinkClick(e)}
+          >
+            Shop
+          </Styled.h4>
+        </li>
+        <li>
+          <Styled.h4 as={Link} to="#contact" onClick={e => LinkClick(e)}>
             Contact
-          </Styled.h3>
+          </Styled.h4>
         </li>
         <li>
           <a href="https://github.com/thecodepixi">

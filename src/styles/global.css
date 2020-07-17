@@ -1,6 +1,7 @@
 body {
   box-sizing: border-box;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 #navbar {
@@ -47,9 +48,15 @@ a:hover,
   transition: 250ms all ease-in-out;
 }
 
+/* use class to add rainbow on click on mobile */
+.link-click {
+  color: transparent !important;
+  transition: 250ms all ease-in-out;
+}
+
 #twitter-icon,
 #github-icon {
-  font-size: 2em;
+  font-size: 1.5em;
   color: black;
   background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
   background-clip: text;
@@ -106,7 +113,7 @@ a:hover,
 
   #twitter-icon,
   #github-icon {
-    font-size: 2.5em;
+    font-size: 2em;
     color: black;
   }
 
