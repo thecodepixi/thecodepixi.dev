@@ -117,6 +117,14 @@ a:hover,
     color: black;
   }
 
+  footer nav a {
+    order: 1;
+  }
+
+  footer nav ul {
+    order: 2;
+  }
+
   #bio {
     flex-direction: row;
     justify-content: space-between;

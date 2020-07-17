@@ -15,6 +15,10 @@ export default {
     body: 1.75,
     heading: 1.5,
   },
+  letterSpacings: {
+    body: "1em",
+    heading: "1em",
+  },
   colors: {
     text: "#000",
     background: "#fff",
