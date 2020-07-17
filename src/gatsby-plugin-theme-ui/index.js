@@ -24,12 +24,12 @@ export default {
   },
   images: {
     standard: {
-      height: "auto",
+      height: "max-content",
       maxWidth: "90%",
       borderRadius: "4em",
     },
     small: {
-      height: "auto",
+      height: "max-content",
       width: "10em",
       borderRadius: ".5em",
     },
