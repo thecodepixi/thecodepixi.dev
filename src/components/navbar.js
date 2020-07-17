@@ -6,7 +6,9 @@ import { Link } from "gatsby"
 export default props => {
   return (
     <nav id="navbar">
-      <Styled.h2>TheCodePixi</Styled.h2>
+      <Styled.h2 as={Link} to="/">
+        TheCodePixi
+      </Styled.h2>
       <ul>
         <li>
           <Styled.h3 as={Link} to="/blog">

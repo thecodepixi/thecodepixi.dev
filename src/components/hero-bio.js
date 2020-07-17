@@ -13,9 +13,10 @@ export default () => {
           but you can call me Pixi...
         </Styled.h1>
         <Styled.p sx={{ fontSize: [1, 3, 4] }}>
-          I'm a Software Engineer and Web Developer, Community Organizer,
-          Bootcamp Grad, Life-long Learner, Woman In Tech, Former Barista,
-          Coffee and Tea Connoisseur, Consummate Crafter, and so much more...
+          I am a Software Engineer and Web Developer, Community Organizer,
+          Bootcamp Grad, Life-Long Learner, Non-Binary Woman In Tech, Former
+          Barista, Coffee and Tea Connoisseur, Consummate Crafter, and so much
+          more...
         </Styled.p>
       </div>
       <Image src={headshot} variant="standard" id="headshot" />

@@ -6,7 +6,7 @@ body {
 #navbar {
   display: flex;
   flex-direction: column;
-  align-items: baseline;
+  align-items: center;
   padding: 0 1em;
 }
 
@@ -15,7 +15,7 @@ body {
   width: 100vw;
   align-items: baseline;
   justify-content: space-evenly;
-  align-self: center;
+  padding: 0;
 }
 
 #navbar li {
@@ -26,13 +26,25 @@ body {
   margin-bottom: 0;
 }
 
+footer nav a {
+  order: 2;
+}
+
+footer nav ul {
+  order: 1;
+}
+
 a {
   background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
   background-clip: text;
+  text-decoration: none;
 }
 
-a:hover {
+a:hover,
+#twitter-icon:hover,
+#github-icon:hover {
   color: transparent;
+  transition: 250ms all ease-in-out;
 }
 
 #twitter-icon,
@@ -41,11 +53,6 @@ a:hover {
   color: black;
   background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
   background-clip: text;
-}
-
-#twitter-icon:hover,
-#github-icon:hover {
-  color: transparent;
 }
 
 #bio {
