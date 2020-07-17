@@ -1,5 +1,6 @@
+/* @jsx jsx */
 import React from "react"
-import { Styled } from "theme-ui"
+import { Styled, jsx } from "theme-ui"
 import { Link } from "gatsby"
 
 export default props => {
