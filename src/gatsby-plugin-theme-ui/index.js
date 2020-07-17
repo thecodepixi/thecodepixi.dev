@@ -12,8 +12,8 @@ export default {
     bold: 700,
   },
   lineHeights: {
-    body: 1.5,
-    heading: 1.125,
+    body: 1.75,
+    heading: 1.5,
   },
   colors: {
     text: "#000",
@@ -26,7 +26,7 @@ export default {
     standard: {
       height: "max-content",
       maxWidth: "90%",
-      borderRadius: "4em",
+      borderRadius: "5em",
     },
     small: {
       height: "max-content",
@@ -90,7 +90,7 @@ export default {
       fontSize: [0, 1, 2],
     },
     a: {
-      color: "primary",
+      color: "text",
     },
     pre: {
       fontFamily: "monospace",

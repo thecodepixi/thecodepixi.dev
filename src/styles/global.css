@@ -26,10 +26,26 @@ body {
   margin-bottom: 0;
 }
 
+a {
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+  background-clip: text;
+}
+
+a:hover {
+  color: transparent;
+}
+
 #twitter-icon,
 #github-icon {
   font-size: 2em;
   color: black;
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+  background-clip: text;
+}
+
+#twitter-icon:hover,
+#github-icon:hover {
+  color: transparent;
 }
 
 #bio {
@@ -59,7 +75,7 @@ body {
     flex-direction: row;
     align-items: baseline;
     justify-content: space-between;
-    padding: 0 1em;
+    padding: 0 2em;
   }
 
   #navbar ul {
