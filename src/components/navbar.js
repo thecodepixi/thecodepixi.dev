@@ -25,14 +25,22 @@ export default props => {
         </li>
         <li>
           <a href="https://github.com/thecodepixi">
-            <i class="fab fa-github" id="github-icon" aria-hidden="true"></i>
-            <span class="visible-hidden">Twitter</span>
+            <i
+              className="fab fa-github"
+              id="github-icon"
+              aria-hidden="true"
+            ></i>
+            <span className="visible-hidden">Twitter</span>
           </a>
         </li>
         <li>
           <a href="https://twitter.com/thecodepixi">
-            <i class="fab fa-twitter" id="twitter-icon" aria-hidden="true"></i>
-            <span class="visible-hidden">GitHub</span>
+            <i
+              className="fab fa-twitter"
+              id="twitter-icon"
+              aria-hidden="true"
+            ></i>
+            <span className="visible-hidden">GitHub</span>
           </a>
         </li>
       </ul>
