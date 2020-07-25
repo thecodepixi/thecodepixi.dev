@@ -1,8 +1,8 @@
-# JavaScript Closure
-
-| **Resources:**                                                                       |
-| ------------------------------------------------------------------------------------ |
-| [MDN Closure Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures) |
+---
+title: What is a "closure" in JavaScript?
+tags: [JavaScript, Computer Science]
+date: 2020-07-24
+---
 
 ## What is a "closure"?
 
@@ -83,5 +83,9 @@ When we use argument chaining, we simply call the inner function immediately by 
 ## Want to learn more about scope in JavaScript?
 
 Check out [my previous post on scope and hoisting](https://dev.to/thecodepixi/hoist-your-vars-variable-hoisting-in-javascript-2f42) and let me know if you still have any questions! It might inspire a future blog post!
+
+| **Resources:**                                                                       |
+| ------------------------------------------------------------------------------------ |
+| [MDN Closure Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures) |
 
 xx - Emily / TheCodePixi
