@@ -2,6 +2,7 @@
 title: What is a "closure" in JavaScript?
 tags: [JavaScript, Computer Science]
 date: 2020-07-24
+slug: javascript-closure
 ---
 
 ## What is a "closure"?

@@ -2,6 +2,7 @@
 title: "How To: Create A Link Rainbow Hover Effect"
 tags: [CSS, HTML, How To]
 date: 2020-07-17
+slug: rainbow-link-hover-effect
 ---
 
 So, typically I try to write pretty long, in-depth articles and tutorials. This week I _do not_ have the energy, so we're doing a quick tutorial on how I created a rainbow hover effect for the links in the forth-coming redesign of my website and blog...

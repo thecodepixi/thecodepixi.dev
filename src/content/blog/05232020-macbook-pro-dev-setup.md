@@ -1,6 +1,7 @@
 ---
 title: "My Macbook Pro Dev Setup"
 date: "2020-05-23"
+slug: macbook-pro-dev-setup
 ---
 
 A quick run down of everything I did to get my dev environment up and running on my new 2020 MacBook Pro...
